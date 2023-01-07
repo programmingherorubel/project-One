@@ -1,0 +1,184 @@
+/* Global Css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+.contactUsButton{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    background-color: #F15B22;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.contactUsButton:hover{
+    border: 2px solid #F15B22;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 4px;
+}
+
+.customButton2{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color:#F15B22;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.customButton2:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+/* Global Css  */
+
+/* header  */
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+header ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+header ul li:hover{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+.extrafontslogo{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+}
+/* header  */
+/* start Banner section css */
+.banner{
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.bannerContent{
+    text-align: end;
+}
+.bannerTitle{
+    font-size: 65px;
+    font-weight: 700;
+}
+.bannerP{
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+}
+
+
+/* Faileres  */
+.failersDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    width: 400px;
+}
+.girlsimgContent h1{
+    font-size: 40px;
+}
+.fa-check{
+    margin: 0 5px;
+    color: #16D887 ;
+}
+ul {
+    margin-top: 10px;
+}
+ul li{
+    list-style: none;
+    margin-top: 5px;
+    color: rgb(77, 76, 76);
+}
+/* Faileres  */
+
+/* Plans  */
+.customPlanImg{
+    width: 80px;
+}
+.planingcontent{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* Plans  */
+
+/* start extra section  */
+.extraSection{
+    margin: 100px 0px;
+}
+.extra{
+    padding: 50px 0px;
+    background-image:linear-gradient(to right,#0160ac ,rgba(255, 255, 255, 0)),url(../img//watch.png);
+    background-position: end;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.extra h1{
+    color: white;
+}
+.extraSectionContent{
+    padding: 10px;
+}
+/* end extra section  */
+
+/* start footer section  */
+footer{
+    padding: 40px;
+    background-color: black;
+}
+footer h1{
+    margin-top: 20px;
+    color: rgb(187, 185, 185);
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerul{
+    display: flex;
+    gap: 20px;
+}
+form input{
+    padding: 10px;
+    width: 300px;
+}
+/* end footer section  */
+
